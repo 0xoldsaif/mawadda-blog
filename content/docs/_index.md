@@ -1,6 +1,5 @@
 +++
-title = "Docs"
-description = "Documentation for the Deep Thought theme."
+title = "أدب"
 sort_by = "date"
 paginate_by = 5
 +++
