@@ -5,10 +5,8 @@ description = "أتأملُ فعلَ الكتابة، هل هي الشاطيء �
 date=2020-08-28
 
 [taxonomies]
-categories = ["Markdown"]
-tags = ["post", "markdown"]
+
 [extra]
-toc = true
 comments = false
 +++
 
