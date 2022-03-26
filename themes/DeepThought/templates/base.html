@@ -1,14 +1,15 @@
 {% import 'macros.html' as macros %}
 
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="ltr">
 <!-- "مَودَّة" -->
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta content="#ffffff" name="theme-color" />
   <meta content="#da532c" name="msapplication-TileColor" />
-  
+  <!-- favicon -->
+  <link rel="icon" type="image/jpg" href="images/icon.png">
   {% if config.extra.favicon.webmanifest %}
   <link href='{{ config.extra.favicon.webmanifest }}' rel="manifest" />
   {% endif %}
@@ -72,18 +73,20 @@
   <!-- edit 19/3/2022 -->
   <link href="../static/main.css" rel="stylesheet" media="all">
   
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Aref+Ruqaa&family=Noto+Nastaliq+Urdu&family=Rakkas&family=Tajawal&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Aref+Ruqaa&family=Lateef&family=Noto+Nastaliq+Urdu&family=Rakkas&family=Tajawal&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Noto+Nastaliq+Urdu&family=Rakkas&family=Tajawal&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;1,400;1,700&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
   <style>
     .navbar.is-light {
-    background-color: #495371;
+    background-color: #46244C;
     color: rgba(0,0,0,.7);
     }
     /* width of article */
@@ -105,7 +108,7 @@
     }
     /* title of home page */
     .title.is-2 {
-      font-size: 7rem;
+      font-size: 2.25rem;
       font-family: 'Noto Nastaliq Urdu', serif;
       margin-bottom: 70px;
       letter-spacing: 5px;
@@ -128,24 +131,24 @@
     }
     /* navigation styles */
     .navbar.is-light .navbar-brand .navbar-link.is-active, .navbar.is-light .navbar-brand .navbar-link:focus, .navbar.is-light .navbar-brand .navbar-link:hover, .navbar.is-light .navbar-brand>a.navbar-item.is-active, .navbar.is-light .navbar-brand>a.navbar-item:focus, .navbar.is-light .navbar-brand>a.navbar-item:hover {
-    background-color: #98B4AA;
+    background-color: #EEEEEE;
     color: rgba(0,0,0,.7);
 }
     .navbar.is-light .navbar-end .navbar-link.is-active, .navbar.is-light .navbar-end .navbar-link:focus, .navbar.is-light .navbar-end .navbar-link:hover, .navbar.is-light .navbar-end>a.navbar-item.is-active, .navbar.is-light .navbar-end>a.navbar-item:focus, .navbar.is-light .navbar-end>a.navbar-item:hover, .navbar.is-light .navbar-start .navbar-link.is-active, .navbar.is-light .navbar-start .navbar-link:focus, .navbar.is-light .navbar-start .navbar-link:hover, .navbar.is-light .navbar-start>a.navbar-item.is-active, .navbar.is-light .navbar-start>a.navbar-item:focus, .navbar.is-light .navbar-start>a.navbar-item:hover {
-    background-color: #98B4AA;
+    background-color: #EEEEEE;
     color: rgba(0,0,0,.7);
   }
     .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
-    background-color: #98B4AA;
+    background-color: #EEEEEE;
     color: #485fc7;
     }
     p{
-      font-family: "Amiri",'Tajawal', serif;
+      font-family: 'Lateef', cursive;
       font-size: 25px;
     }
     /* selection color */
     *::selection{
-    background:#74959A;
+    background:#F7E2E2;
     color:#333;
     }
     /* scrollbar */
@@ -153,31 +156,31 @@
     width:0.7rem;
     }
     html::-webkit-scrollbar-track{
-        background:#495371;
+        background:#46244C;
     }
     html::-webkit-scrollbar-thumb{
-        background:#98B4AA;
+        background:#EEEEEE;
     }
     /* scroll up button */
-    .top{
+    /* .top{
     position: fixed;
     width: 50px;
-    background-color: #495371;
+    background-color: #46244C;
     border-radius: 10px;
     height: 50px;
     bottom:2.5rem; right: 2rem;
     z-index: 100;
     display: none;
-    }
+    } */
     /* page num colors */
     .pagination-link.is-current {
-    background-color: #495371;
-    border-color: #495371;
+    background-color: #46244C;
+    border-color: #46244C;
     color: #fff;
     }
     /* blog brand color */
     .navbar.is-light .navbar-brand .navbar-link, .navbar.is-light .navbar-brand>.navbar-item {
-    color: #F1E0AC;
+    color: #DAB88B;
     
     
     }
@@ -185,22 +188,22 @@
       font-size: larger;
     }
     .navbar.is-light .navbar-end .navbar-link, .navbar.is-light .navbar-end>.navbar-item, .navbar.is-light .navbar-start .navbar-link, .navbar.is-light .navbar-start>.navbar-item {
-    color: #F1E0AC;
+    color: #DAB88B;
     }
     .navbar-menu {
-    background-color: #495371;
+    background-color: #46244C;
     box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
     /* padding: 0.5rem 0; */
     }
     .title {
-    color: #495371;
+    color: #46244C;
     font-weight: 600;
     line-height: 1.125;
     text-align: center;
     }
     /* social media */
     a {
-    color: #495371;
+    color: #46244C;
     cursor: pointer;
     text-decoration: none;
     }
@@ -208,16 +211,22 @@
       display: block;
     }
     .has-text-info-dark {
-    color: #495371!important;
+    color: #46244C!important;
+    }
+    /* posts p  */
+    div.content.mt-2 > p{
+      font-size: 1.25em;
+      font-weight: 400;
+      line-height: 1.5;
     }
   </style>
 </head>
 
 <body class="has-background-white">
-  <a href="#" class="top">
+  <!-- <a href="#" class="top">
     <img id="upimg" src="images/scroll-top-img.png" alt="">
-  </a>
-  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+  </a> -->
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation" dir="rtl">
     <div class="container">
       <div class="navbar-menu" id="navMenu">
         <div class="navbar-end has-text-centered">
@@ -376,7 +385,7 @@
   {% endblock %}
   <!-- edit 21/3/2022 -->
   <!-- scroll top button -->
-  <script>
+  <!-- <script>
     $(window).on('scroll load',function(){
     if($(window).scrollTop() > 0){
       $('.top').show();
@@ -385,7 +394,7 @@
     }
     });
 
-  </script>
+  </script> -->
 </body>
 
 </html>
