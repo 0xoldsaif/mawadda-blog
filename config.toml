@@ -169,11 +169,11 @@ galleria.enabled = true
 navbar_items = [
     { code = "en", nav_items = [
         { url = "$BASE_URL/", name = "الرئيسية" },
-        { url = "$BASE_URL/posts", name = " مقالات علمية" },
-        { url = "$BASE_URL/docs", name = "مقالات أدبية" },
-        
-        
-    ] },
+        { url = "$BASE_URL/words", name = "أدب" },
+        { url = "$BASE_URL/thoughts", name = "سيرة ذاتية وخواطر" },
+        { url = "$BASE_URL/books", name = "حديث عن الكتب" },
+        # { url = "$BASE_URL/science", name = " مقالات علمية" },
+    ]},
 ]
 
 [extra.favicon]
@@ -191,23 +191,13 @@ name = "DeepThought"
 facebook = "Mawadda.Naser"
 twitter = "MawaddaNaser"
 
-# github = "RatanShreshtha"
-# gitlab = "ratanshreshtha"
-# keybase = "RatanShreshtha"
-# linkedin = "ratanshreshtha"
-# stackoverflow = "3728911"
-# email = "deepthought@gmail.com"
-# mastodon = "@RatanShreshtha"
-# orcid = ""
-# google_scholar = ""
-
 [extra.analytics]
-google = "UA-176984489-2"
+# google = "UA-176984489-2"
 
 [extra.commenting]
-disqus = "deepthought-theme"
+# disqus = "deepthought-theme"
 
 [extra.mapbox]
 enabled = true
-access_token = "pk.eyJ1IjoicmF0YW5zaHJlc2h0aGEiLCJhIjoiY2tla2s2NmM3MDd0ZzJzbXFtc3Y2YmU0NyJ9.0RhUnJPKbxHWw3xGPnnBlA"
+# access_token = "pk.eyJ1IjoicmF0YW5zaHJlc2h0aGEiLCJhIjoiY2tla2s2NmM3MDd0ZzJzbXFtc3Y2YmU0NyJ9.0RhUnJPKbxHWw3xGPnnBlA"
 
