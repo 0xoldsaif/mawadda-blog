@@ -8,7 +8,6 @@ categories = ["Documentation"]
 tags = ["theme", "zola"]
 
 [extra]
-toc = true
 comments = false
 +++
 

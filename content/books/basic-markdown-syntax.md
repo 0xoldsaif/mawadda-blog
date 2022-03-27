@@ -6,7 +6,6 @@ date=2020-08-28
 categories = ["Markdown"]
 tags = ["post", "markdown"]
 [extra]
-toc = true
 comments = false
 +++
 
