@@ -2,15 +2,14 @@
 
 <!DOCTYPE html>
 <html lang="ar" dir="ltr">
-<!-- "مَودَّة" -->
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta content="#ffffff" name="theme-color" />
   <meta content="#da532c" name="msapplication-TileColor" />
   <!-- favicon -->
-  <link rel="icon" type="image/jpg" href="images/icon.png">
-  {% if config.extra.favicon.webmanifest %}
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <!-- {% if config.extra.favicon.webmanifest %}
   <link href='{{ config.extra.favicon.webmanifest }}' rel="manifest" />
   {% endif %}
   {% if config.extra.favicon.safari_pinned_tab %}
@@ -24,7 +23,7 @@
   {% endif %}
   {% if config.extra.favicon.apple_touch_icon %}
   <link href='{{ config.extra.favicon.apple_touch_icon }}' rel="apple-touch-icon" sizes="180x180" />
-  {% endif %}
+  {% endif %} -->
 
   {% if config.extra.galleria.enabled %}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
@@ -100,13 +99,15 @@
     }
     .columns {
     margin-left: -1.5rem;
-    margin-right: -1.5rem;
+    margin-right: -3.5rem;
     margin-top: -0.75rem;
     }
+    /* to show tree content */
     .column.is-offset-2, .column.is-offset-2-tablet {
-      margin-left: 7.66667%;
-    }
-    /* title of home page */
+    margin-left: -5.33333%;
+}
+    /* title of the page except home*/
+    /* for home title in index.html element */
     .title.is-2 {
       font-size: 2.25rem;
       font-family: 'Noto Nastaliq Urdu', serif;
@@ -218,6 +219,11 @@
       font-size: 1.25em;
       font-weight: 400;
       line-height: 1.5;
+    }
+    /* tree content active link */
+    .menu-list a.is-active {
+    background-color: #46244C;
+    color: #fff;
     }
   </style>
 </head>
