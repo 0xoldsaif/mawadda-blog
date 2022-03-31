@@ -8,8 +8,8 @@
   <meta content="#ffffff" name="theme-color" />
   <meta content="#da532c" name="msapplication-TileColor" />
   <!-- favicon -->
-  <link rel="icon" type="image/png" href="images/icon.png">
-  <!-- {% if config.extra.favicon.webmanifest %}
+  <!-- <link rel="icon" type="image/png" href="images/icon.png"> -->
+  {% if config.extra.favicon.webmanifest %}
   <link href='{{ config.extra.favicon.webmanifest }}' rel="manifest" />
   {% endif %}
   {% if config.extra.favicon.safari_pinned_tab %}
@@ -23,7 +23,7 @@
   {% endif %}
   {% if config.extra.favicon.apple_touch_icon %}
   <link href='{{ config.extra.favicon.apple_touch_icon }}' rel="apple-touch-icon" sizes="180x180" />
-  {% endif %} -->
+  {% endif %}
 
   {% if config.extra.galleria.enabled %}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
