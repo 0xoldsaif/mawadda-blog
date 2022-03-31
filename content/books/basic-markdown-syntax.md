@@ -7,6 +7,7 @@ categories = ["Markdown"]
 tags = ["post", "markdown"]
 [extra]
 comments = false
+toc = true
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Zola content files.
