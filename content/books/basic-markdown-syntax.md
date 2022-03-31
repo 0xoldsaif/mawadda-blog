@@ -5,7 +5,6 @@ date=2020-08-28
 [taxonomies]
 categories = ["Markdown"]
 tags = ["post", "markdown"]
-toc = true
 [extra]
 comments = false
 +++
