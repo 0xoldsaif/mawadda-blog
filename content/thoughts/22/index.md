@@ -5,7 +5,7 @@ date = 2022-04-16
 +++
 
 <head>
-    <meta property="og:image" content="mawadda-menna.jpg" />
+    <meta property="og:image" content="/public/mawadda-menna.jpg" />
 </head>
 
 <div dir="rtl">
