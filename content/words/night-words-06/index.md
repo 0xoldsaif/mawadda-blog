@@ -8,6 +8,7 @@ date = 2020-10-16
 <div dir="rtl">
 
 ![night-words](night-words.jpg)
+<br>
 خِطاباتٌ تحتضنُ الليل. <br>
 (الخطابُ السادس) <br>
 
