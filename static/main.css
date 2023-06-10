@@ -1,0 +1,9 @@
+/* ignored */
+.navbar.is-light {
+  background-color: #333;
+  color: rgba(0, 0, 0, 0.7);
+}
+*::selection {
+  background: var(--yellow);
+  color: #333;
+}
