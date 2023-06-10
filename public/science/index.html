@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<!-- "مَودَّة" -->
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+  <!-- favicon -->
+  <link rel="icon" type="image/jpg" href="images/icon.png">
+  
+  
+  
+  
+  <link href='&#x2F;icons&#x2F;icon.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" integrity="sha384-IJLmUY0f1ePPX6uSCJ9Bxik64/meJmjSYD7dHaJqTXXEBE4y+Oe9P2KBZa/z7p0Q" crossorigin="anonymous">
+  <link href="https://mawaddanaser.netlify.app/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+مَودَّة | science
+
+  </title>
+
+  <!-- 
+  
+   -->
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+  <!-- edit 19/3/2022 -->
+  <link href="../static/main.css" rel="stylesheet" media="all">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Aref+Ruqaa&family=Noto+Nastaliq+Urdu&family=Rakkas&family=Tajawal&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Aref+Ruqaa&family=Lateef&family=Noto+Nastaliq+Urdu&family=Rakkas&family=Tajawal&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Noto+Nastaliq+Urdu&family=Rakkas&family=Tajawal&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;1,400;1,700&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+  <style>
+    .navbar.is-light {
+    background-color: #46244C;
+    color: rgba(0,0,0,.7);
+    }
+    /* width of article */
+    .column.is-9, .column.is-9-tablet {
+      flex: none;
+      width: 100%;
+    }
+    .column.is-8, .column.is-8-tablet {
+      flex: none;
+      width: 95%;
+    }
+    .columns {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    margin-top: -0.75rem;
+    }
+    .column.is-offset-2, .column.is-offset-2-tablet {
+      margin-left: 7.66667%;
+    }
+    /* title of home page */
+    .title.is-2 {
+      font-size: 2.25rem;
+      font-family: 'Noto Nastaliq Urdu', serif;
+      margin-bottom: 70px;
+      letter-spacing: 5px;
+    }
+    .title {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+    text-align: center;
+    }
+    /* subtitle of home page */
+    .subtitle.is-4{
+      margin-top: 0;
+      font-size: 25px;
+      line-height: 1.75;
+    }
+    .title:not(.is-spaced)+.subtitle {
+    margin-top:0rem;
+    }
+    /* navigation styles */
+    .navbar.is-light .navbar-brand .navbar-link.is-active, .navbar.is-light .navbar-brand .navbar-link:focus, .navbar.is-light .navbar-brand .navbar-link:hover, .navbar.is-light .navbar-brand>a.navbar-item.is-active, .navbar.is-light .navbar-brand>a.navbar-item:focus, .navbar.is-light .navbar-brand>a.navbar-item:hover {
+    background-color: #EEEEEE;
+    color: rgba(0,0,0,.7);
+}
+    .navbar.is-light .navbar-end .navbar-link.is-active, .navbar.is-light .navbar-end .navbar-link:focus, .navbar.is-light .navbar-end .navbar-link:hover, .navbar.is-light .navbar-end>a.navbar-item.is-active, .navbar.is-light .navbar-end>a.navbar-item:focus, .navbar.is-light .navbar-end>a.navbar-item:hover, .navbar.is-light .navbar-start .navbar-link.is-active, .navbar.is-light .navbar-start .navbar-link:focus, .navbar.is-light .navbar-start .navbar-link:hover, .navbar.is-light .navbar-start>a.navbar-item.is-active, .navbar.is-light .navbar-start>a.navbar-item:focus, .navbar.is-light .navbar-start>a.navbar-item:hover {
+    background-color: #EEEEEE;
+    color: rgba(0,0,0,.7);
+  }
+    .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    background-color: #EEEEEE;
+    color: #485fc7;
+    }
+    p{
+      font-family: 'Lateef', cursive;
+      font-size: 25px;
+    }
+    /* selection color */
+    *::selection{
+    background:#F7E2E2;
+    color:#333;
+    }
+    /* scrollbar */
+    html::-webkit-scrollbar{
+    width:0.7rem;
+    }
+    html::-webkit-scrollbar-track{
+        background:#46244C;
+    }
+    html::-webkit-scrollbar-thumb{
+        background:#EEEEEE;
+    }
+    /* scroll up button */
+    /* .top{
+    position: fixed;
+    width: 50px;
+    background-color: #46244C;
+    border-radius: 10px;
+    height: 50px;
+    bottom:2.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+    } */
+    /* page num colors */
+    .pagination-link.is-current {
+    background-color: #46244C;
+    border-color: #46244C;
+    color: #fff;
+    }
+    /* blog brand color */
+    .navbar.is-light .navbar-brand .navbar-link, .navbar.is-light .navbar-brand>.navbar-item {
+    color: #DAB88B;
+    
+    
+    }
+    .navbar-item.is-size-5.has-text-weight-bold p{
+      font-size: larger;
+    }
+    .navbar.is-light .navbar-end .navbar-link, .navbar.is-light .navbar-end>.navbar-item, .navbar.is-light .navbar-start .navbar-link, .navbar.is-light .navbar-start>.navbar-item {
+    color: #DAB88B;
+    }
+    .navbar-menu {
+    background-color: #46244C;
+    box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
+    /* padding: 0.5rem 0; */
+    }
+    .title {
+    color: #46244C;
+    font-weight: 600;
+    line-height: 1.125;
+    text-align: center;
+    }
+    /* social media */
+    a {
+    color: #46244C;
+    cursor: pointer;
+    text-decoration: none;
+    }
+    #authername{
+      display: block;
+    }
+    .has-text-info-dark {
+    color: #46244C!important;
+    }
+    /* posts p  */
+    div.content.mt-2 > p{
+      font-size: 1.25em;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body class="has-background-white">
+  <!-- <a href="#" class="top">
+    <img id="upimg" src="images/scroll-top-img.png" alt="">
+  </a> -->
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation" dir="rtl">
+    <div class="container">
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-centered">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;mawaddanaser.netlify.app&#x2F;">
+            الرئيسية
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;mawaddanaser.netlify.app&#x2F;words">
+            أدب
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;mawaddanaser.netlify.app&#x2F;thoughts">
+            سيرة ذاتية وخواطر
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;mawaddanaser.netlify.app&#x2F;books">
+            حديث عن الكتب
+          </a>
+          
+          
+          
+          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>
+          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-brand">
+        <a id="mnubtn" aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <a  class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;mawaddanaser.netlify.app"><p id="authername">مَودَّة</p></a>
+      </div>
+    </div>
+  </nav>
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h1 class="title is-2">science</h1>
+      <p class="subtitle is-4"></p>
+    </div>
+    <div class="content">
+      
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-9">
+        
+        
+        
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Search</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Search this website." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+  
+  
+
+  
+  
+
+  <!-- <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        صُنع بكل
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>الاتقان </span>
+        </span>
+        و 
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>الحب</span>
+        </span>
+      </p>
+      <p>
+        بواسطة
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer> -->
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://mawaddanaser.netlify.app/elasticlunr.min.js"></script>
+  <script src="https://mawaddanaser.netlify.app/search_index.en.js"></script><script src="https://mawaddanaser.netlify.app/js/site.js"></script>
+
+  
+  
+
+  
+  
+  <!-- edit 21/3/2022 -->
+  <!-- scroll top button -->
+  <!-- <script>
+    $(window).on('scroll load',function(){
+    if($(window).scrollTop() > 0){
+      $('.top').show();
+    }else{
+      $('.top').hide();
+    }
+    });
+
+  </script> -->
+</body>
+
+</html>
